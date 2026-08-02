@@ -1,8 +1,13 @@
 /**
  * 读取Notion相关的配置
  * 如果需要在Notion中添加自定义字段，可以修改此文件
+ * 此文件内容可以通过环境变量覆盖，但是不支持用NOTION_CONFIG覆盖
  */
 module.exports = {
+  // Notion数据库索引，取notion的第几个视图作为站点数据和排序依据
+  NOTION_INDEX: process.env.NEXT_PUBLIC_NOTION_INDEX || 0,  // 默认取Notion数据库中的第1个视图
+  // 由于计算机是从0开始计数、而非从1开始。因此如果要取第二个视图，可以传1，取第三个视图传2，以此类推,取数据库的最后一个视图可以传-1。
+
   // 自定义配置notion数据库字段名
   NOTION_PROPERTY_NAME: {
     password: process.env.NEXT_PUBLIC_NOTION_PROPERTY_PASSWORD || 'password',
@@ -14,6 +19,10 @@ module.exports = {
     type_menu: process.env.NEXT_PUBLIC_NOTION_PROPERTY_TYPE_MENU || 'Menu', // 当type文章类型与此值相同时，为菜单。
     type_sub_menu:
       process.env.NEXT_PUBLIC_NOTION_PROPERTY_TYPE_SUB_MENU || 'SubMenu', // 当type文章类型与此值相同时，为子菜单。
+    type_member:
+      process.env.NEXT_PUBLIC_NOTION_PROPERTY_TYPE_MEMBER || 'Member', // 社区成员资料
+    type_event:
+      process.env.NEXT_PUBLIC_NOTION_PROPERTY_TYPE_EVENT || 'Event', // 社区活动
     title: process.env.NEXT_PUBLIC_NOTION_PROPERTY_TITLE || 'title', // 文章标题
     status: process.env.NEXT_PUBLIC_NOTION_PROPERTY_STATUS || 'status',
     status_publish:
