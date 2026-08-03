@@ -66,6 +66,26 @@ describe('getPublishTimestamp', () => {
     expect(later).toBeGreaterThan(earlier)
   })
 
+  it('supports Notion fixed-offset time zones such as UTC+8', () => {
+    expect(
+      getPublishTimestamp({
+        start_date: '2026-08-03',
+        start_time: '11:30',
+        time_zone: 'UTC+8'
+      })
+    ).toBe(new Date('2026-08-03T03:30:00.000Z').getTime())
+  })
+
+  it('supports IANA time zones', () => {
+    expect(
+      getPublishTimestamp({
+        start_date: '2026-08-03',
+        start_time: '11:30',
+        time_zone: 'Asia/Singapore'
+      })
+    ).toBe(new Date('2026-08-03T03:30:00.000Z').getTime())
+  })
+
   it('continues to support date-only properties', () => {
     expect(getPublishTimestamp({ start_date: '2026-08-03' })).toBe(
       new Date('2026-08-03').getTime()
@@ -75,8 +95,6 @@ describe('getPublishTimestamp', () => {
   it('falls back to the Notion creation time when the date is missing', () => {
     const fallback = '2026-08-03T03:30:00.000Z'
 
-    expect(getPublishTimestamp({}, fallback)).toBe(
-      new Date(fallback).getTime()
-    )
+    expect(getPublishTimestamp({}, fallback)).toBe(new Date(fallback).getTime())
   })
 })
