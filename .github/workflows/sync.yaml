@@ -4,8 +4,7 @@ permissions:
   contents: write
 
 on:
-  schedule:
-    - cron: "0 0 * * *" # every day
+  # An upstream sync writes to main and triggers a production deployment, so require a manual run.
   workflow_dispatch:
 
 jobs:
