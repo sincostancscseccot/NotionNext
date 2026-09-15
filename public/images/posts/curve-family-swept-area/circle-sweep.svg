@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="760" viewBox="0 0 1500 760">
+<rect width="1500" height="760" fill="#08111f"/>
+<g stroke="#94a3b8" opacity=".14"><path d="M110 620H1390"/><path d="M180 90V650M380 90V650M580 90V650M780 90V650M980 90V650M1180 90V650M1380 90V650"/></g>
+<path d="M240 190H1120a180 180 0 0 1 0 360H240a180 180 0 0 1 0-360Z" fill="#22d3ee" fill-opacity=".13" stroke="#67e8f9" stroke-width="5"/>
+<g fill="none" stroke="#93c5fd" stroke-width="3" opacity=".6"><circle cx="240" cy="370" r="180"/><circle cx="460" cy="370" r="180"/><circle cx="680" cy="370" r="180"/><circle cx="900" cy="370" r="180"/><circle cx="1120" cy="370" r="180"/></g>
+<g stroke="#fbbf24" stroke-width="4"><path d="M240 190H1120"/><path d="M240 550H1120"/></g>
+<g fill="#e2e8f0" font-family="system-ui,'Noto Sans SC','Microsoft YaHei',sans-serif"><text x="128" y="92" font-size="34" font-weight="700">平移的单位圆族</text><text x="128" y="132" font-size="23" opacity=".78">相邻曲线不断相交，极限位置形成包络边界</text><text x="500" y="180" font-size="22" fill="#fbbf24">包络线</text><text x="505" y="590" font-size="22" fill="#fbbf24">包络线</text><text x="116" y="690" font-size="22" opacity=".72">端点圆 + 上下两条包络线 = 扫掠区域的完整边界</text></g>
+<g stroke="#f8fafc" stroke-width="3" fill="none"><path d="M240 370H1090"/><path d="M1090 370l-22-13m22 13l-22 13"/></g><text x="620" y="350" fill="#f8fafc" font-size="24" font-family="ui-monospace,Consolas,monospace">t</text>
+</svg>
