@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="650" viewBox="0 0 1600 650">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07111f"/><stop offset="1" stop-color="#102746"/></linearGradient>
+  <linearGradient id="area" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22d3ee" stop-opacity=".34"/><stop offset="1" stop-color="#60a5fa" stop-opacity=".14"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1600" height="650" fill="url(#bg)"/>
+<g stroke="#93c5fd" opacity=".055" stroke-width="1">
+  <path d="M120 0V650M320 0V650M520 0V650M720 0V650M920 0V650M1120 0V650M1320 0V650M1520 0V650"/>
+  <path d="M0 90H1600M0 190H1600M0 290H1600M0 390H1600M0 490H1600M0 590H1600"/>
+</g>
+<path d="M235 430 C320 250 450 195 590 235 C740 278 840 420 1005 426 C1160 432 1275 342 1360 205 L1360 438 C1250 520 1110 554 955 532 C800 510 685 442 545 422 C420 405 325 448 235 520 Z" fill="url(#area)" stroke="#67e8f9" stroke-width="4" filter="url(#glow)"/>
+<g fill="none" stroke="#93c5fd" stroke-width="2.2" opacity=".55">
+  <path d="M250 470 C345 305 455 245 575 268 C710 294 820 426 995 438 C1130 447 1255 373 1342 244"/>
+  <path d="M282 451 C370 300 477 254 600 287 C727 321 838 430 1009 450 C1147 466 1254 405 1330 293"/>
+  <path d="M320 437 C410 302 516 275 634 311 C754 349 869 435 1025 460 C1161 482 1253 435 1316 342"/>
+  <path d="M365 428 C452 315 553 296 665 335 C782 376 897 443 1044 473 C1167 498 1248 466 1295 389"/>
+</g>
+<g fill="none" stroke="#22d3ee" stroke-width="5" opacity=".92" filter="url(#glow)">
+  <path d="M235 430 C320 250 450 195 590 235 C740 278 840 420 1005 426 C1160 432 1275 342 1360 205"/>
+  <path d="M235 520 C325 448 420 405 545 422 C685 442 800 510 955 532 C1110 554 1250 520 1360 438"/>
+</g>
+<g font-family="ui-monospace,Consolas,monospace" fill="#dbeafe">
+  <text x="168" y="155" font-size="28" opacity=".82">r(s,t) = (x(s,t), y(s,t))</text>
+  <text x="1010" y="130" font-size="24" opacity=".7">J = det( r_s , r_t )</text>
+  <text x="1076" y="570" font-size="22" opacity=".58">envelope  •  parameter map  •  area</text>
+</g>
+<g stroke="#f8fafc" stroke-width="2" opacity=".75">
+  <path d="M800 190l54 34"/>
+  <path d="M852 224l-18-2m18 2l-8-16"/>
+</g>
+<circle cx="800" cy="190" r="5" fill="#f8fafc"/><circle cx="854" cy="224" r="5" fill="#f8fafc"/>
+</svg>
