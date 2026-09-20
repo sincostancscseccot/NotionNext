@@ -1,1 +1,1 @@
-Rebuild after updating 11 Notion article covers on 2026-09-21.
+Rebuild after migrating and normalizing Notion article tags on 2026-09-21.
