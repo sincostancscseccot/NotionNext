@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071522"/><stop offset="1" stop-color="#10283a"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f1c878"/><stop offset="1" stop-color="#d7f2ff"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <style>
+    .title{font:700 64px "Noto Sans SC","Microsoft YaHei",sans-serif;fill:#f3f7fb}
+    .small{font:500 28px "Noto Sans SC","Microsoft YaHei",sans-serif;fill:#b8c8d6}
+    .series{font:600 28px "Noto Sans SC","Microsoft YaHei",sans-serif;fill:#f1c878;letter-spacing:5px}
+    .label{font:600 24px "Noto Sans SC","Microsoft YaHei",sans-serif;fill:#d8e6ef}
+  </style>
+</defs>
+<rect width="1600" height="900" fill="url(#bg)"/>
+<circle cx="1400" cy="120" r="260" fill="#f1c878" opacity=".05"/>
+<circle cx="1310" cy="780" r="310" fill="#f1c878" opacity=".035"/>
+<text x="88" y="105" class="series">科学方法 · 理论</text>
+<line x1="88" y1="130" x2="420" y2="130" stroke="#f1c878" stroke-width="3" opacity=".65"/>
+<text x="88" y="270" class="title">什么叫一个“好理论”？</text><text x="88" y="362" class="title">准确还不够，最好还要漂亮</text>
+<g transform="translate(850 155)">
+   <circle cx="330" cy="285" r="220" fill="#12273a" stroke="#7f6d4d" stroke-width="3"/>
+   <g fill="#eef5f8"><circle cx="160" cy="360" r="9"/><circle cx="220" cy="315" r="9"/><circle cx="285" cy="280" r="9"/><circle cx="350" cy="245" r="9"/><circle cx="420" cy="214" r="9"/><circle cx="488" cy="182" r="9"/></g>
+   <path d="M135 390 C235 320 330 265 520 165" fill="none" stroke="#f1c878" stroke-width="5"/>
+   <path d="M330 540 V650" stroke="#f1c878" stroke-width="4"/>
+   <path d="M155 650 H505" stroke="#f1c878" stroke-width="5"/>
+   <path d="M210 650 L150 735 H270 Z" fill="#173148" stroke="#f1c878" stroke-width="3"/>
+   <path d="M450 650 L390 735 H510 Z" fill="#173148" stroke="#f1c878" stroke-width="3"/>
+   <text x="165" y="710" class="label">准确</text><text x="405" y="710" class="label">简洁</text>
+   <text x="235" y="590" class="small">解释力 · 预测力 · 可检验性 · 优雅</text>
+ </g>
+</svg>

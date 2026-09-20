@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071522"/><stop offset="1" stop-color="#10283a"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f0b56f"/><stop offset="1" stop-color="#d7f2ff"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <style>
+    .title{font:700 64px "Noto Sans SC","Microsoft YaHei",sans-serif;fill:#f3f7fb}
+    .small{font:500 28px "Noto Sans SC","Microsoft YaHei",sans-serif;fill:#b8c8d6}
+    .series{font:600 28px "Noto Sans SC","Microsoft YaHei",sans-serif;fill:#f0b56f;letter-spacing:5px}
+    .label{font:600 24px "Noto Sans SC","Microsoft YaHei",sans-serif;fill:#d8e6ef}
+  </style>
+</defs>
+<rect width="1600" height="900" fill="url(#bg)"/>
+<circle cx="1400" cy="120" r="260" fill="#f0b56f" opacity=".05"/>
+<circle cx="1310" cy="780" r="310" fill="#f0b56f" opacity=".035"/>
+<text x="88" y="105" class="series">科学方法 · 直觉与证据</text>
+<line x1="88" y1="130" x2="420" y2="130" stroke="#f0b56f" stroke-width="3" opacity=".65"/>
+<text x="88" y="270" class="title">科学中的“直觉”究竟可靠吗？</text>
+<g transform="translate(865 160)">
+   <path d="M310 55 C180 55 100 150 100 280 C100 390 165 460 230 485 L230 575 L420 575 L420 485 C500 455 555 382 555 280 C555 150 455 55 310 55 Z" fill="#142b3d" stroke="#f0b56f" stroke-width="4"/>
+   <path d="M200 250 C245 205 305 205 350 250 C395 295 455 295 500 250" fill="none" stroke="#7fc6dd" stroke-width="5"/>
+   <path d="M175 340 C240 305 310 315 365 352 C420 390 470 385 520 355" fill="none" stroke="#f0b56f" stroke-width="4" stroke-dasharray="12 10"/>
+   <circle cx="310" cy="225" r="18" fill="#f0b56f" filter="url(#glow)"/>
+   <rect x="205" y="600" width="220" height="70" rx="14" fill="#112435" stroke="#6e8ba1"/>
+   <text x="245" y="646" class="label">直觉 ≠ 证据</text>
+   <text x="125" y="745" class="small">直觉提出方向，实验与推理决定它能否留下。</text>
+ </g>
+</svg>
