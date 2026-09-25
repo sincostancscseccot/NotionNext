@@ -75,4 +75,5 @@
   <path d="M50 0l48 18v42c0 36-19 63-48 82C21 123 2 96 2 60V18z" fill="#0e2636" stroke="#7ce0d0" stroke-width="5"/>
   <path d="M28 66l17 17 31-38" fill="none" stroke="#86b3ff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
+<!-- content refresh trigger after Notion publication -->
 </svg>
