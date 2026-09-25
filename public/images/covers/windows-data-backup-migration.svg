@@ -78,4 +78,5 @@
 <!-- content refresh trigger after Notion publication -->
 <!-- second rebuild after Notion index propagation -->
 <!-- rebuild after series label and AI prompt copy update -->
+<!-- rebuild after prompt language/completeness fixes -->
 </svg>
