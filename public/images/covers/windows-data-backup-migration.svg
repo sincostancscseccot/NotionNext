@@ -76,4 +76,5 @@
   <path d="M28 66l17 17 31-38" fill="none" stroke="#86b3ff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <!-- content refresh trigger after Notion publication -->
+<!-- second rebuild after Notion index propagation -->
 </svg>
