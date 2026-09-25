@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#08111f"/>
+    <stop offset="0.52" stop-color="#162641"/>
+    <stop offset="1" stop-color="#183d49"/>
+  </linearGradient>
+  <linearGradient id="vault" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#2b4267"/>
+    <stop offset="1" stop-color="#14243a"/>
+  </linearGradient>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="24" stdDeviation="26" flood-color="#000" flood-opacity=".34"/>
+  </filter>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="18"/>
+  </filter>
+</defs>
+
+<rect width="1600" height="900" fill="url(#bg)"/>
+<circle cx="250" cy="170" r="270" fill="#5b8dff" opacity=".08" filter="url(#glow)"/>
+<circle cx="1360" cy="740" r="320" fill="#50d6c7" opacity=".08" filter="url(#glow)"/>
+
+<g opacity=".12" stroke="#b6d7f4">
+  <path d="M0 180H1600M0 450H1600M0 720H1600"/>
+  <path d="M250 0V900M800 0V900M1350 0V900"/>
+</g>
+
+<!-- old computer -->
+<g transform="translate(120 240)" filter="url(#shadow)">
+  <rect width="410" height="260" rx="28" fill="#0d1c31" stroke="#6d92c4" stroke-width="3"/>
+  <rect x="28" y="30" width="354" height="164" rx="16" fill="#122a45"/>
+  <path d="M64 76h210M64 112h154M64 148h244" stroke="#7097c9" stroke-width="11" stroke-linecap="round"/>
+  <circle cx="333" cy="78" r="12" fill="#7ee3d6"/>
+  <circle cx="333" cy="116" r="12" fill="#5f8fff"/>
+  <path d="M168 222h74v45h-74zM110 267h190" stroke="#6d8cae" stroke-width="12" fill="none" stroke-linecap="round"/>
+</g>
+
+<!-- central backup vault -->
+<g transform="translate(625 150)" filter="url(#shadow)">
+  <rect width="350" height="500" rx="42" fill="url(#vault)" stroke="#72c5d2" stroke-width="4"/>
+  <rect x="72" y="82" width="206" height="206" rx="38" fill="#0a1728" stroke="#83e0d3" stroke-width="6"/>
+  <circle cx="175" cy="185" r="62" fill="none" stroke="#7ab1ff" stroke-width="14"/>
+  <circle cx="175" cy="185" r="15" fill="#85e8d5"/>
+  <path d="M175 123v124M113 185h124" stroke="#7ab1ff" stroke-width="8" stroke-linecap="round"/>
+  <rect x="84" y="338" width="182" height="86" rx="22" fill="#10283a" stroke="#5fb8c5" stroke-width="3"/>
+  <path d="M117 374h116M117 397h82" stroke="#8ad9e2" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="250" cy="397" r="9" fill="#76e0c2"/>
+</g>
+
+<!-- new computer -->
+<g transform="translate(1070 240)" filter="url(#shadow)">
+  <rect width="410" height="260" rx="28" fill="#0b242a" stroke="#63cfbd" stroke-width="3"/>
+  <rect x="28" y="30" width="354" height="164" rx="16" fill="#103741"/>
+  <path d="M64 76h238M64 112h190M64 148h266" stroke="#6ad0c5" stroke-width="11" stroke-linecap="round"/>
+  <circle cx="333" cy="78" r="12" fill="#70d6ff"/>
+  <circle cx="333" cy="116" r="12" fill="#74e6b6"/>
+  <path d="M168 222h74v45h-74zM110 267h190" stroke="#6cb1ab" stroke-width="12" fill="none" stroke-linecap="round"/>
+</g>
+
+<!-- two migration paths -->
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M530 320 C575 260, 585 250, 625 250" stroke="#7ba7ff" stroke-width="12"/>
+  <path d="M975 250 C1015 250, 1025 260, 1070 320" stroke="#7ba7ff" stroke-width="12"/>
+  <path d="M530 430 C575 500, 585 520, 625 520" stroke="#69ddc9" stroke-width="12"/>
+  <path d="M975 520 C1015 520, 1025 500, 1070 430" stroke="#69ddc9" stroke-width="12"/>
+  <path d="M610 235l18 15-22 10" stroke="#7ba7ff" stroke-width="9"/>
+  <path d="M1055 310l18 15-23 10" stroke="#7ba7ff" stroke-width="9"/>
+  <path d="M610 506l18 15-22 10" stroke="#69ddc9" stroke-width="9"/>
+  <path d="M1055 420l18 15-23 10" stroke="#69ddc9" stroke-width="9"/>
+</g>
+
+<!-- shield -->
+<g transform="translate(750 685)">
+  <path d="M50 0l48 18v42c0 36-19 63-48 82C21 123 2 96 2 60V18z" fill="#0e2636" stroke="#7ce0d0" stroke-width="5"/>
+  <path d="M28 66l17 17 31-38" fill="none" stroke="#86b3ff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>
