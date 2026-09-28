@@ -1,27 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
-<defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#160d22"/><stop offset="1" stop-color="#3b1830"/></linearGradient>
- <linearGradient id="a" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff7c92"/><stop offset="1" stop-color="#d48cff"/></linearGradient>
- <filter id="g"><feGaussianBlur stdDeviation="9" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
- <style>.t{font:700 58px "Noto Sans SC","Microsoft YaHei",sans-serif;fill:#fff6fb}.s{font:600 27px "Noto Sans SC","Microsoft YaHei",sans-serif;fill:#ff8cad;letter-spacing:4px}.m{font:500 26px "Noto Sans SC","Microsoft YaHei",sans-serif;fill:#dfc4d5}.l{font:600 23px "Noto Sans SC","Microsoft YaHei",sans-serif;fill:#f0d8e6}</style>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07121f"/><stop offset="1" stop-color="#10263a"/></linearGradient>
+<filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#69cfff"/></marker>
+<marker id="arrY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#ffd166"/></marker>
+<marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#ff6f91"/></marker>
+<style>.title{font:700 62px 'Noto Sans SC','Microsoft YaHei',sans-serif;fill:#f6fbff}.sub{font:500 30px 'Noto Sans SC','Microsoft YaHei',sans-serif;fill:#bcd0df}.series{font:600 26px 'Noto Sans SC','Microsoft YaHei',sans-serif;fill:#6fd6ff;letter-spacing:4px}.h{font:700 36px 'Noto Sans SC','Microsoft YaHei',sans-serif;fill:#f5fbff}.t{font:500 25px 'Noto Sans SC','Microsoft YaHei',sans-serif;fill:#d8e8f1}.sm{font:500 21px 'Noto Sans SC','Microsoft YaHei',sans-serif;fill:#b9ccda}.math{font:italic 32px Georgia,'Times New Roman',serif;fill:#f7fbff}</style>
 </defs>
-<rect width="1600" height="900" fill="url(#bg)"/>
-<circle cx="1400" cy="110" r="280" fill="#ff7298" opacity=".05"/><circle cx="1220" cy="800" r="340" fill="#c882ff" opacity=".04"/>
-<text x="90" y="112" class="s">稳定 · 失稳与反馈  2 / 2</text>
-<line x1="90" y1="138" x2="470" y2="138" stroke="#ff8cad" stroke-width="3" opacity=".65"/>
-<text x="90" y="262" class="t">为什么有些系统会越偏越远？</text>
-<text x="90" y="326" class="m">正反馈、不稳定性与临界点</text>
-<g transform="translate(825 120)">
- <rect width="650" height="630" rx="34" fill="#281426" stroke="#71405c" stroke-width="2"/>
- <path d="M72 465 C175 430 218 196 325 170 C432 196 475 430 578 465" fill="none" stroke="url(#a)" stroke-width="9"/>
- <circle cx="325" cy="190" r="23" fill="#ffd27c" filter="url(#g)"/>
- <path d="M305 225 Q230 300 160 395" fill="none" stroke="#ff809c" stroke-width="5"/><path d="M345 225 Q420 300 490 395" fill="none" stroke="#ff809c" stroke-width="5"/>
- <path d="M160 395 l5 -21 l16 13 z" fill="#ff809c"/><path d="M490 395 l-5 -21 l-16 13 z" fill="#ff809c"/>
- <g transform="translate(115 500)">
-  <line x1="0" y1="65" x2="420" y2="65" stroke="#80506b" stroke-width="2"/>
-  <line x1="210" y1="0" x2="210" y2="130" stroke="#80506b" stroke-width="2"/>
-  <path d="M210 65 C245 64 275 42 315 10 M210 65 C245 66 275 88 315 120" fill="none" stroke="#d892ff" stroke-width="5"/>
-  <path d="M105 65 L210 65" stroke="#ff809c" stroke-width="4" stroke-dasharray="10 8"/>
- </g>
- <text x="245" y="120" class="l">不稳定平衡</text>
-</g></svg>
+<rect width="1600" height="900" fill="#140d1d"/>
+<text x="90" y="108" class="series" fill="#ff86a4">稳定、失稳与反馈  2 / 2</text><line x1="90" y1="135" x2="500" y2="135" stroke="#ff86a4" stroke-width="3" opacity=".65"/>
+<text x="90" y="245" class="title">为什么有些系统会越偏越远？</text><text x="90" y="305" class="sub">正反馈、不稳定性与临界点</text>
+<path d="M680 700 C820 680 900 420 1110 365 C1320 420 1400 680 1540 700" fill="none" stroke="#7fc7ff" stroke-width="9"/>
+<circle cx="1110" cy="350" r="27" fill="#ffd166" stroke="#fff1b0" stroke-width="3" filter="url(#glow)"/>
+<path d="M1075 390 C1015 430 955 510 900 585" fill="none" stroke="#ffd166" stroke-width="6" marker-end="url(#arrY)"/>
+<path d="M1145 390 C1205 430 1265 510 1320 585" fill="none" stroke="#ffd166" stroke-width="6" marker-end="url(#arrY)"/>
+<text x="1020" y="320" class="t">不稳定平衡</text>
+<g transform="translate(130 420)"><rect width="460" height="290" rx="24" fill="#241429" stroke="#713e5c"/><text x="28" y="50" class="h" font-size="30">分岔与临界点</text><line x1="55" y1="165" x2="410" y2="165" stroke="#80647a" stroke-width="2"/><line x1="210" y1="80" x2="210" y2="245" stroke="#80647a" stroke-width="2"/><path d="M70 165 H210" stroke="#69cfff" stroke-width="6"/><path d="M210 165 H390" stroke="#ff6f91" stroke-width="5" stroke-dasharray="12 9"/><path d="M210 165 C260 150 300 110 360 82 M210 165 C260 180 300 220 360 248" fill="none" stroke="#c792ff" stroke-width="6"/></g></svg>
