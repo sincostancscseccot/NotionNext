@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071523"/><stop offset=".58" stop-color="#112238"/><stop offset="1" stop-color="#071825"/></linearGradient>
+ <linearGradient id="a" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#65c6f3"/><stop offset="1" stop-color="#86f0d1"/></linearGradient>
+ <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="15"/></filter>
+</defs>
+<rect width="1600" height="900" fill="url(#bg)"/>
+<g opacity=".15" stroke="#8bbed3"><path d="M0 136H1600M0 268H1600M0 400H1600M0 532H1600M0 664H1600M0 796H1600" stroke-width="1"/><path d="M200 0V900M400 0V900M600 0V900M800 0V900M1000 0V900M1200 0V900M1400 0V900"/></g>
+<circle cx="1300" cy="50" r="360" fill="#1ba9c5" opacity=".075" filter="url(#glow)"/>
+<text x="120" y="132" font-family="'Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="25" letter-spacing="7" fill="#87bdd4">TECHNOLOGY  /  LAYERS  /  REUSE</text>
+<text x="120" y="216" font-family="'Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-weight="700" font-size="63" fill="#f1faff">不同的外壳，共同的底层</text>
+<text x="123" y="262" font-family="'Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="25" fill="#a2b7c6">从文件格式、浏览器到操作系统，追踪技术的复用关系</text>
+<g font-family="'Noto Sans CJK SC','Microsoft YaHei',sans-serif">
+<rect x="117" y="330" width="1366" height="145" rx="24" fill="#102b3d" stroke="#386779" stroke-width="2"/>
+<text x="153" y="374" fill="#74cddf" font-size="22" font-weight="700">01  FILES</text>
+<g fill="#d4e5ec" font-size="30" font-weight="600"><text x="170" y="428">.docx</text><text x="345" y="428">.jar</text><text x="500" y="428">.epub</text></g>
+<path d="M675 403H1117" stroke="url(#a)" stroke-width="5" stroke-linecap="round"/><path d="M1101 390L1125 403L1101 416" fill="none" stroke="#8cefd9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1174" y="359" width="246" height="86" rx="18" fill="#1b5a67" stroke="#57baa8"/><text x="1296" y="413" text-anchor="middle" font-size="35" font-weight="700" fill="#b7ffee">ZIP</text>
+<rect x="117" y="493" width="1366" height="145" rx="24" fill="#102b3d" stroke="#386779" stroke-width="2"/>
+<text x="153" y="537" fill="#74cddf" font-size="22" font-weight="700">02  BROWSERS</text>
+<g fill="#d4e5ec" font-size="29" font-weight="600"><text x="170" y="590">Chrome</text><text x="356" y="590">Edge</text><text x="488" y="590">Brave</text></g>
+<path d="M675 566H1117" stroke="url(#a)" stroke-width="5" stroke-linecap="round"/><path d="M1101 553L1125 566L1101 579" fill="none" stroke="#8cefd9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1174" y="522" width="246" height="86" rx="18" fill="#1b5a67" stroke="#57baa8"/><text x="1296" y="576" text-anchor="middle" font-size="35" font-weight="700" fill="#b7ffee">Blink</text>
+<rect x="117" y="656" width="1366" height="145" rx="24" fill="#102b3d" stroke="#386779" stroke-width="2"/>
+<text x="153" y="700" fill="#74cddf" font-size="22" font-weight="700">03  SYSTEMS</text>
+<g fill="#d4e5ec" font-size="29" font-weight="600"><text x="170" y="754">Ubuntu</text><text x="365" y="754">Fedora</text><text x="553" y="754">Android</text></g>
+<path d="M780 729H1117" stroke="url(#a)" stroke-width="5" stroke-linecap="round"/><path d="M1101 716L1125 729L1101 742" fill="none" stroke="#8cefd9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1174" y="685" width="246" height="86" rx="18" fill="#1b5a67" stroke="#57baa8"/><text x="1296" y="738" text-anchor="middle" font-size="32" font-weight="700" fill="#b7ffee">Linux</text>
+</g>
+<text x="120" y="854" font-family="sans-serif" font-size="19" fill="#8aa9bc" letter-spacing="3">SAME FOUNDATIONS ≠ SAME PRODUCTS</text>
+</svg>
