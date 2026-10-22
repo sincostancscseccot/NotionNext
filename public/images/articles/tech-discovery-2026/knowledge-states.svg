@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#f5f8fc"/>
+<g font-family="'Noto Sans CJK SC','Microsoft YaHei',sans-serif"><text x="86" y="125" font-size="48" font-weight="700" fill="#182d49">认知盲区的三种状态</text><text x="87" y="173" font-size="25" fill="#57718e">第三种状态的困难在于：你尚未拥有合适的搜索起点</text></g>
+<g font-family="'Noto Sans CJK SC','Microsoft YaHei',sans-serif">
+<rect x="70" y="252" width="460" height="490" rx="26" fill="#e8f3f2" stroke="#b8d9d5" stroke-width="2"/>
+<rect x="570" y="252" width="460" height="490" rx="26" fill="#eaf2fc" stroke="#bed6f0" stroke-width="2"/>
+<rect x="1070" y="252" width="460" height="490" rx="26" fill="#fff4e5" stroke="#edce9a" stroke-width="2"/>
+<circle cx="300" cy="342" r="46" fill="#2f857f"/><circle cx="800" cy="342" r="46" fill="#367bbd"/><circle cx="1300" cy="342" r="46" fill="#b27a2f"/>
+<g fill="#fff" font-size="43" font-weight="700" text-anchor="middle"><text x="300" y="357">✓</text><text x="800" y="357">?</text><text x="1300" y="357">…</text></g>
+<g font-size="30" fill="#1c3552" font-weight="700" text-anchor="middle"><text x="300" y="447">知道自己知道</text><text x="800" y="447">知道自己不知道</text><text x="1300" y="447">不知道自己不知道</text></g>
+<g font-size="24" fill="#4a6277" text-anchor="middle"><text x="300" y="517">已经掌握文件操作</text><text x="800" y="517">听说过容器但不懂</text><text x="1300" y="517">连领域名称也没听过</text></g>
+<g fill="#fff" stroke-width="2"><rect x="123" y="592" width="354" height="88" rx="18" stroke="#5daaa5"/><rect x="623" y="592" width="354" height="88" rx="18" stroke="#6aa2d0"/><rect x="1123" y="592" width="354" height="88" rx="18" stroke="#c59b58"/></g>
+<g font-size="24" font-weight="600" fill="#263d50" text-anchor="middle"><text x="300" y="646">应用并继续深化</text><text x="800" y="646">有目标地检索学习</text><text x="1300" y="646">创造接触未知的机会</text></g>
+<text x="83" y="831" font-size="21" fill="#708397">注：这是辅助理解的概念划分，不是官方分类。</text>
+</g></svg>
