@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="如何发现未知技术：从已知起点探索未见的技术网络">
+<defs>
+<linearGradient id="night" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071323"/><stop offset=".58" stop-color="#0e2340"/><stop offset="1" stop-color="#091629"/></linearGradient>
+<radialGradient id="aura"><stop stop-color="#ffd890" stop-opacity=".28"/><stop offset=".5" stop-color="#dfa752" stop-opacity=".08"/><stop offset="1" stop-color="#dfa752" stop-opacity="0"/></radialGradient>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#f2c773"/><stop offset="1" stop-color="#f9e8b0"/></linearGradient>
+<filter id="blur"><feGaussianBlur stdDeviation="14"/></filter>
+</defs>
+<rect width="1600" height="900" fill="url(#night)"/>
+<g stroke="#7da9ce" opacity=".09" stroke-width="1"><path d="M0 112H1600M0 225H1600M0 338H1600M0 451H1600M0 564H1600M0 677H1600M0 790H1600"/><path d="M145 0V900M290 0V900M435 0V900M580 0V900M725 0V900M870 0V900M1015 0V900M1160 0V900M1305 0V900M1450 0V900"/></g>
+<circle cx="1136" cy="490" r="460" fill="url(#aura)"/>
+<g fill="none" stroke-linecap="round"><path d="M744 602Q858 488 967 511T1216 375T1504 250" stroke="#f9ca7d" stroke-width="3" opacity=".8"/><path d="M744 602Q887 678 1010 667T1294 751T1530 665" stroke="#78c4fa" stroke-width="3" opacity=".8"/><path d="M744 602Q801 397 952 300T1210 226T1523 110" stroke="#68bce8" stroke-width="2.5" opacity=".7"/><path d="M967 511Q1093 585 1195 567T1420 475" stroke="#96dfff" stroke-width="2.5" opacity=".67"/><path d="M1010 667Q1154 654 1195 567T1392 375" stroke="#8cd3fb" stroke-width="2.5" opacity=".7"/><path d="M952 300Q1060 342 1216 375T1392 375" stroke="#a8bfff" stroke-width="2.5" opacity=".65"/></g>
+<g fill="#a7e2fc"><circle cx="967" cy="511" r="11"/><circle cx="952" cy="300" r="9"/><circle cx="1195" cy="567" r="11"/><circle cx="1010" cy="667" r="9"/><circle cx="1392" cy="375" r="9"/><circle cx="1504" cy="250" r="7"/><circle cx="1420" cy="475" r="7"/><circle cx="1523" cy="110" r="6"/><circle cx="1530" cy="665" r="7"/></g>
+<g stroke="#90cbe6" fill="#132f4d" stroke-width="2.5"><circle cx="1216" cy="375" r="37"/><circle cx="1294" cy="751" r="31"/><circle cx="1210" cy="226" r="28"/></g>
+<g fill="#e8f8ff" font-size="26" text-anchor="middle" font-family="'Noto Sans CJK SC','Microsoft YaHei',sans-serif"><text x="1216" y="383">?</text><text x="1294" y="760">?</text><text x="1210" y="234">?</text></g>
+<circle cx="744" cy="602" r="83" fill="#efba68" opacity=".24" filter="url(#blur)"/>
+<circle cx="744" cy="602" r="65" fill="#283c4c" stroke="url(#gold)" stroke-width="5"/>
+<circle cx="744" cy="602" r="49" fill="#172e42" stroke="#f6dba6" stroke-width="1.5"/>
+<g stroke="#ffdf9d" stroke-width="7" fill="none" stroke-linecap="round"><circle cx="734" cy="593" r="18"/><path d="M748 608L769 630"/></g>
+<g fill="#eef8ff" font-family="'Noto Sans CJK SC','Microsoft YaHei',sans-serif">
+<text x="108" y="156" font-family="sans-serif" font-size="23" letter-spacing="6" fill="#9ac3e1">EXPLORE THE UNKNOWN</text>
+<text x="103" y="262" font-size="69" font-weight="700">如何发现</text>
+<text x="103" y="355" font-size="75" font-weight="700">自己不知道的技术？</text>
+<text x="107" y="423" font-size="29" fill="#a9c7dc">从一次提问，走向更广阔的知识网络</text>
+</g>
+<rect x="106" y="473" width="444" height="3" rx="2" fill="url(#gold)"/>
+<text x="107" y="526" font-size="22" fill="#dfb76d" letter-spacing="3" font-family="'Noto Sans CJK SC','Microsoft YaHei',sans-serif">需求  ·  结构  ·  关联  ·  外部</text>
+<text x="107" y="836" font-size="17" letter-spacing="4" fill="#708fae" font-family="sans-serif">KNOWLEDGE  •  DISCOVERY  •  VERIFICATION</text>
+</svg>
