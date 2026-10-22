@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#527fa5"/></marker></defs>
+<rect width="1600" height="900" fill="#f5f8fc"/>
+<g font-family="'Noto Sans CJK SC','Microsoft YaHei',sans-serif">
+<text x="85" y="94" font-size="49" font-weight="700" fill="#1b304a">“让 AI 操作电脑”涉及不同的技术层次</text><text x="88" y="145" font-size="23" fill="#55708b">示意的是一种可行的组合关系，而不是四种工具的同类排行</text>
+<rect x="537" y="197" width="526" height="104" rx="20" fill="#223e65"/><text x="800" y="241" text-anchor="middle" font-size="32" fill="#fff" font-weight="700">AI 应用 / Agent</text><text x="800" y="275" text-anchor="middle" font-size="20" fill="#cfe2f5">规划步骤、调用工具、检查结果</text>
+<path d="M800 302V336" stroke="#527fa5" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="537" y="351" width="526" height="108" rx="20" fill="#e6eff9" stroke="#82acd0" stroke-width="2"/><text x="800" y="395" text-anchor="middle" font-size="30" fill="#214a70" font-weight="700">工具集成层（可选 MCP）</text><text x="800" y="429" text-anchor="middle" font-size="20" fill="#536c84">连接应用与已实现的操作能力</text>
+<path d="M800 460V496H255V523M800 496V523M800 496H1345V523" stroke="#527fa5" stroke-width="3.5" fill="none" marker-end="url(#arrow)"/>
+<g>
+<rect x="75" y="540" width="360" height="136" rx="21" fill="#eaf5fc" stroke="#91c4dd" stroke-width="2"/><rect x="620" y="540" width="360" height="136" rx="21" fill="#e9f7f2" stroke="#9bcdb7" stroke-width="2"/><rect x="1165" y="540" width="360" height="136" rx="21" fill="#fff4e8" stroke="#e9c49d" stroke-width="2"/>
+<g text-anchor="middle" font-size="30" font-weight="700" fill="#23405b"><text x="255" y="591">Playwright</text><text x="800" y="591">Windows UI Automation</text><text x="1345" y="591">PyAutoGUI</text></g>
+<g text-anchor="middle" font-size="21" fill="#55718a"><text x="255" y="631">浏览器页面交互</text><text x="800" y="631">Windows 控件访问</text><text x="1345" y="631">屏幕与输入模拟</text></g>
+</g>
+<g stroke="#527fa5" stroke-width="3.5" marker-end="url(#arrow)"><path d="M255 677V731"/><path d="M800 677V731"/><path d="M1345 677V731"/></g>
+<g font-size="24" text-anchor="middle" font-weight="600" fill="#23405b"><rect x="94" y="748" width="322" height="67" rx="14" fill="#d5e8f8"/><rect x="639" y="748" width="322" height="67" rx="14" fill="#d8eddf"/><rect x="1184" y="748" width="322" height="67" rx="14" fill="#f8e6ce"/><text x="255" y="790">Web 页面</text><text x="800" y="790">支持的桌面控件</text><text x="1345" y="790">窗口 / 像素 / 输入</text></g>
+<text x="84" y="863" font-size="20" fill="#617891">说明：也可以不用 MCP 而以其他机制直接集成工具；实际应用受平台、权限及控件支持限制。</text>
+</g>
+</svg>
