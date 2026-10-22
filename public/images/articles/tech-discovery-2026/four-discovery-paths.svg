@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#5384b0"/></marker></defs>
+<rect width="1600" height="900" fill="#f5f8fc"/>
+<g font-family="'Noto Sans CJK SC','Microsoft YaHei',sans-serif">
+<text x="86" y="104" font-size="50" font-weight="700" fill="#182d49">四个入口，构成一次知识发现循环</text><text x="87" y="154" font-size="24" fill="#55718d">并不是从工具名称开始，而是从不同的探索起点走向候选技术</text>
+</g>
+<g font-family="'Noto Sans CJK SC','Microsoft YaHei',sans-serif">
+<g><rect x="63" y="216" width="339" height="160" rx="22" fill="#e8f4ff" stroke="#8cb9e3" stroke-width="2"/><text x="88" y="268" font-size="24" fill="#4173a2">01</text><text x="88" y="315" font-size="34" font-weight="700" fill="#173651">需求入口</text><text x="88" y="351" font-size="20" fill="#51697e">我想解决什么问题？</text></g>
+<g><rect x="441" y="216" width="339" height="160" rx="22" fill="#e9f7f3" stroke="#8bc6b2" stroke-width="2"/><text x="466" y="268" font-size="24" fill="#358c74">02</text><text x="466" y="315" font-size="34" font-weight="700" fill="#173651">结构入口</text><text x="466" y="351" font-size="20" fill="#51697e">系统由哪些部分组成？</text></g>
+<g><rect x="819" y="216" width="339" height="160" rx="22" fill="#f0ecfc" stroke="#b4a5e2" stroke-width="2"/><text x="844" y="268" font-size="24" fill="#7964bc">03</text><text x="844" y="315" font-size="34" font-weight="700" fill="#173651">关联入口</text><text x="844" y="351" font-size="20" fill="#51697e">有哪些依赖、替代和交叉？</text></g>
+<g><rect x="1197" y="216" width="339" height="160" rx="22" fill="#fff2e6" stroke="#e0b88d" stroke-width="2"/><text x="1222" y="268" font-size="24" fill="#b17a48">04</text><text x="1222" y="315" font-size="34" font-weight="700" fill="#173651">外部入口</text><text x="1222" y="351" font-size="20" fill="#51697e">陌生领域和不同来源</text></g>
+</g>
+<g stroke="#5384b0" stroke-width="3.5" fill="none" marker-end="url(#arr)"><path d="M232 376V442H800V493"/><path d="M610 376V442H800V493"/><path d="M988 376V442H800V493"/><path d="M1366 376V442H800V493"/></g>
+<rect x="479" y="503" width="642" height="111" rx="23" fill="#163b5f"/>
+<g font-family="'Noto Sans CJK SC','Microsoft YaHei',sans-serif" text-anchor="middle"><text x="800" y="548" font-size="35" font-weight="700" fill="#f0f8ff">发现新的领域、概念或工具</text><text x="800" y="583" font-size="22" fill="#b9dcf6">记录名称与有类型的技术关系</text></g>
+<path d="M800 614V651" stroke="#5384b0" stroke-width="3.5" marker-end="url(#arr)"/>
+<rect x="579" y="664" width="442" height="83" rx="18" fill="#e8f4ec" stroke="#8ab89b" stroke-width="2"/>
+<text x="800" y="713" font-size="30" font-weight="700" fill="#225a45" text-anchor="middle" font-family="'Noto Sans CJK SC','Microsoft YaHei',sans-serif">核实来源、能力与适用性</text>
+<path d="M1021 703H1431V808H1015" stroke="#5384b0" fill="none" stroke-width="3.5" marker-end="url(#arr)"/>
+<rect x="562" y="777" width="453" height="65" rx="17" fill="#fff" stroke="#8eb0cc" stroke-width="2"/>
+<text x="789" y="819" font-size="27" font-weight="600" fill="#21435c" text-anchor="middle" font-family="'Noto Sans CJK SC','Microsoft YaHei',sans-serif">新节点成为下一轮探索起点</text>
+</svg>
