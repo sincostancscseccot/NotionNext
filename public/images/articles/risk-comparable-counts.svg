@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500">
+<rect width="1200" height="500" fill="#142238"/>
+<text x="60" y="72" font-family="sans-serif" font-size="36" fill="white">同一分母下的预期事件数</text>
+<text x="60" y="117" font-family="sans-serif" font-size="22" fill="#B5C9DF">假设每组均为10,000次同类事件机会</text>
+<text x="60" y="190" font-size="30" fill="#D7E8F7" font-family="sans-serif">1%　→　100 次</text>
+<rect x="60" y="217" width="750" height="35" rx="5" fill="#84CCF2"/>
+<text x="60" y="325" font-size="30" fill="#F4DCB7" font-family="sans-serif">0.01%　→　1 次</text>
+<rect x="60" y="352" width="7.5" height="35" fill="#E8B880"/>
+<path d="M60 403H810" stroke="#788B9E" stroke-width="2"/>
+<text x="60" y="449" font-size="20" fill="#A4BBD2" font-family="sans-serif">两条横条使用同一个线性刻度；数量分别为100和1。</text>
+</svg>
