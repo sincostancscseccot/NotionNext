@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600">
+<rect width="1200" height="600" rx="20" fill="#142238"/>
+<text x="55" y="80" font-size="40" fill="white" font-family="sans-serif">同一组概率，四种描述</text>
+<text x="420" y="155" font-size="60" fill="#ECF4FF" font-family="sans-serif">1% / 0.01%</text>
+<rect x="55" y="205" width="530" height="145" rx="16" fill="#203D59"/>
+<text x="80" y="257" font-size="30" fill="#ABD8F2" font-family="sans-serif">绝对差</text>
+<text x="80" y="320" font-size="45" fill="white" font-family="sans-serif">0.99 个百分点</text>
+<rect x="615" y="205" width="530" height="145" rx="16" fill="#44372F"/>
+<text x="640" y="257" font-size="30" fill="#F1D8B8" font-family="sans-serif">倍数</text>
+<text x="640" y="320" font-size="48" fill="white" font-family="sans-serif">100 倍</text>
+<rect x="55" y="370" width="530" height="145" rx="16" fill="#203D59"/>
+<text x="80" y="422" font-size="30" fill="#ABD8F2" font-family="sans-serif">从 0.01% 到 1%</text>
+<text x="80" y="485" font-size="45" fill="white" font-family="sans-serif">相对增加 9900%</text>
+<rect x="615" y="370" width="530" height="145" rx="16" fill="#44372F"/>
+<text x="640" y="422" font-size="30" fill="#F1D8B8" font-family="sans-serif">从 1% 到 0.01%</text>
+<text x="640" y="485" font-size="45" fill="white" font-family="sans-serif">相对减少 99%</text>
+<text x="600" y="565" fill="#A9BFD6" text-anchor="middle" font-size="23" font-family="sans-serif">不同描述，回答不同的问题</text>
+</svg>
