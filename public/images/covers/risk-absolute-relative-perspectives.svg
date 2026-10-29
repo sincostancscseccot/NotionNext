@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="只差0.99个百分点，却相差100倍：同一组概率的两种描述">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0A1224"/><stop offset=".52" stop-color="#12213A"/><stop offset="1" stop-color="#0D192C"/></linearGradient>
+ <linearGradient id="a" x1="0" x2="1"><stop stop-color="#71C8F6"/><stop offset="1" stop-color="#B0E4F9"/></linearGradient>
+ <linearGradient id="b" x1="0" x2="1"><stop stop-color="#E8B87A"/><stop offset="1" stop-color="#F4DBB2"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="55"/></filter>
+ <style>
+  .cn{font-family:"Noto Sans SC","Microsoft YaHei","PingFang SC",sans-serif}
+  .en{font-family:Inter,"Segoe UI",Arial,sans-serif}
+ </style>
+</defs>
+<rect width="1600" height="900" fill="url(#bg)"/>
+<circle cx="185" cy="780" r="290" fill="#2C91CF" opacity=".13" filter="url(#glow)"/>
+<circle cx="1400" cy="130" r="250" fill="#C58B48" opacity=".11" filter="url(#glow)"/>
+<g opacity=".17" stroke="#60738C">
+<path d="M75 170H1520 M75 730H1520" stroke-width="1"/>
+<path d="M115 90V795 M1485 90V795"/>
+</g>
+<text x="110" y="118" class="cn" font-size="24" letter-spacing="5" fill="#88A5C5">数学 · 观察 · 价值</text>
+<text x="105" y="210" class="cn" font-weight="700" font-size="77" fill="#F2F6FF">只差 0.99 个百分点，</text>
+<text x="105" y="307" class="cn" font-weight="700" font-size="77" fill="#F2F6FF">却相差 <tspan fill="#E8B87A">100</tspan> 倍</text>
+<text x="108" y="365" class="cn" font-size="27" fill="#ABC0D9">同一事实，不止一种真实的描述</text>
+<g>
+<rect x="470" y="411" width="660" height="114" rx="26" fill="#20314B" stroke="#6F859E" stroke-width="2"/>
+<text x="800" y="484" class="en" text-anchor="middle" font-size="61" font-weight="650" letter-spacing="4" fill="#F6FAFF">1%  <tspan fill="#8399B3" font-weight="400">/</tspan>  0.01%</text>
+</g>
+<path d="M800 525V555 M800 555H412 V595 M800 555H1188 V595" fill="none" stroke="#647990" stroke-width="3"/>
+<circle cx="800" cy="555" r="8" fill="#D2DFEF"/>
+<g>
+<rect x="178" y="595" width="468" height="199" rx="23" fill="#142B43" stroke="#4F9EC8" stroke-width="2"/>
+<text x="214" y="648" class="cn" font-size="28" fill="#A8DDFC">做减法 · 绝对差</text>
+<text x="210" y="724" class="en" font-size="69" font-weight="750" fill="url(#a)">0.99</text>
+<text x="402" y="720" class="cn" font-size="32" fill="#C2DCF2">个百分点</text>
+<text x="212" y="767" class="cn" font-size="21" fill="#93B2CC">两者之间相隔多少</text>
+</g>
+<g>
+<rect x="954" y="595" width="468" height="199" rx="23" fill="#332A2E" stroke="#C89D67" stroke-width="2"/>
+<text x="992" y="648" class="cn" font-size="28" fill="#F1D0A3">做除法 · 相对倍数</text>
+<text x="993" y="724" class="en" font-size="74" font-weight="750" fill="url(#b)">100×</text>
+<text x="995" y="767" class="cn" font-size="21" fill="#D5B99B">前者是后者的100倍</text>
+</g>
+<text x="800" y="858" class="cn" font-size="23" text-anchor="middle" fill="#9FB1CA">不急于选出唯一的评价</text>
+</svg>
