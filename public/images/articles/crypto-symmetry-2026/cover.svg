@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071629"/><stop offset=".55" stop-color="#102945"/><stop offset="1" stop-color="#10192e"/></linearGradient><radialGradient id="glow"><stop stop-color="#21d9c1" stop-opacity=".25"/><stop offset="1" stop-color="#21d9c1" stop-opacity="0"/></radialGradient><filter id="blur"><feGaussianBlur stdDeviation="3"/></filter></defs>
+<rect width="1600" height="900" fill="url(#bg)"/><circle cx="800" cy="470" r="480" fill="url(#glow)"/>
+<g stroke="#78a8c4" fill="none" opacity=".24"><path d="M0 190H1600M0 330H1600M0 470H1600M0 610H1600M0 750H1600"/><path d="M180 0V900M360 0V900M540 0V900M720 0V900M900 0V900M1080 0V900M1260 0V900M1440 0V900"/></g>
+<g fill="none" stroke="#60e4d0" stroke-width="3" stroke-opacity=".72">
+<path d="M270 260L420 335L565 260L710 335L800 290L890 335L1035 260L1180 335L1330 260"/>
+<path d="M270 640L420 565L565 640L710 565L800 610L890 565L1035 640L1180 565L1330 640"/>
+<path d="M270 260V640M420 335V565M565 260V640M710 335V565M890 335V565M1035 260V640M1180 335V565M1330 260V640"/>
+</g>
+<g fill="#0d2940" stroke="#69decf" stroke-width="4"><circle cx="270" cy="260" r="13"/><circle cx="420" cy="335" r="13"/><circle cx="565" cy="260" r="13"/><circle cx="710" cy="335" r="13"/><circle cx="890" cy="335" r="13"/><circle cx="1035" cy="260" r="13"/><circle cx="1180" cy="335" r="13"/><circle cx="1330" cy="260" r="13"/><circle cx="270" cy="640" r="13"/><circle cx="420" cy="565" r="13"/><circle cx="565" cy="640" r="13"/><circle cx="710" cy="565" r="13"/><circle cx="890" cy="565" r="13"/><circle cx="1035" cy="640" r="13"/><circle cx="1180" cy="565" r="13"/><circle cx="1330" cy="640" r="13"/></g>
+<path d="M800 120V780" stroke="#e6b76a" stroke-width="2" stroke-dasharray="11 15" opacity=".5"/>
+<g transform="translate(800 450)"><circle r="143" fill="#07182c" stroke="#dfb269" stroke-width="5"/><circle r="116" fill="none" stroke="#dfb269" stroke-width="1.8" opacity=".45"/><path d="M-15 -29C-15 -60 12 -79 42 -70C69 -61 74 -25 56 -6C46 5 35 12 16 12H-5V84H-32V12H-45V-13H-15Z" fill="none" stroke="#ebca86" stroke-width="12" stroke-linejoin="round"/><circle cx="38" cy="-39" r="9" fill="#ebca86"/></g>
+<path d="M1060 735C1200 670 1300 742 1470 720" stroke="#e7bd76" stroke-width="4" stroke-opacity=".45" fill="none"/><path d="M140 170C285 110 330 160 490 128" stroke="#73d9d3" stroke-width="4" stroke-opacity=".4" fill="none"/>
+<text x="85" y="825" font-family="'Noto Sans CJK SC','Microsoft YaHei',sans-serif" font-size="25" fill="#bedce5" letter-spacing="4">CRYPTOGRAPHY  /  SYMMETRY  /  INDISTINGUISHABILITY</text>
+</svg>
