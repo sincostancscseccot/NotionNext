@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="830" viewBox="0 0 1600 830">
+<rect width="1600" height="830" fill="#f7fafc"/><g font-family="'Noto Sans CJK SC','Microsoft YaHei',sans-serif">
+<text x="90" y="115" font-size="51" font-weight="700" fill="#15334f">算法对称，不等于参与者的信息对称</text><text x="92" y="169" font-size="28" fill="#5c7283">一次一密（1 bit） · 加密与解密使用同一个异或运算</text>
+<rect x="90" y="260" width="360" height="240" rx="24" fill="#deedf9" stroke="#8db9d8" stroke-width="3"/><rect x="620" y="260" width="360" height="240" rx="24" fill="#e9f7ed" stroke="#8cc5a5" stroke-width="3"/><rect x="1150" y="260" width="360" height="240" rx="24" fill="#fff1df" stroke="#e3bd83" stroke-width="3"/>
+<text x="270" y="329" font-size="34" fill="#365a7a" text-anchor="middle">明文 M</text><text x="800" y="329" font-size="34" fill="#2f7655" text-anchor="middle">秘密密钥 K</text><text x="1330" y="329" font-size="34" fill="#96602d" text-anchor="middle">密文 C</text>
+<text x="270" y="436" font-size="104" fill="#173f64" text-anchor="middle" font-weight="700">1</text><text x="800" y="436" font-size="104" fill="#26694c" text-anchor="middle" font-weight="700">0</text><text x="1330" y="436" font-size="104" fill="#925b22" text-anchor="middle" font-weight="700">1</text>
+<text x="532" y="407" font-size="80" fill="#435d73" text-anchor="middle">⊕</text><text x="1062" y="407" font-size="80" fill="#435d73" text-anchor="middle">=</text>
+<rect x="90" y="572" width="1420" height="160" rx="22" fill="#ffffff" stroke="#cadae3" stroke-width="2"/>
+<text x="800" y="626" font-size="37" fill="#173b54" text-anchor="middle" font-weight="700">加密：1 ⊕ 0 = 1　　　解密：1 ⊕ 0 = 1</text>
+<text x="800" y="691" font-size="29" fill="#5c7283" text-anchor="middle">同一运算可逆；恢复明文的关键差异在于是否掌握 K</text>
+</g></svg>
