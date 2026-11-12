@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 580" width="1200" height="580"><rect width="1200" height="580" fill="#0b1628"/>
+<text x="55" y="71" font-family="Arial,'Noto Sans',sans-serif" font-size="38" fill="#f5f8ff" font-weight="700">特征值：不同对象上的共同结构</text>
+<text x="55" y="112" font-family="Arial,'Noto Sans',sans-serif" font-size="22" fill="#b7d0e5" >对象经过一次操作，仅沿自身方向缩放</text>
+<rect x="55" y="170" width="515" height="315" rx="18" fill="#182f4a" stroke="#5a9cb2" stroke-width="2"/>
+<rect x="632" y="170" width="515" height="315" rx="18" fill="#182f4a" stroke="#8d86bd" stroke-width="2"/>
+<text x="312" y="222" font-family="Arial,'Noto Sans',sans-serif" font-size="26" fill="#81d3c6" text-anchor="middle">MATRIX / 矩阵算子</text>
+<text x="890" y="222" font-family="Arial,'Noto Sans',sans-serif" font-size="26" fill="#cfbdf7" text-anchor="middle">DERIVATIVE / 微分算子</text>
+<text x="312" y="321" font-family="Arial,'Noto Sans',sans-serif" font-size="49" fill="#ffffff" text-anchor="middle">A v = λ v</text>
+<text x="890" y="321" font-family="Arial,'Noto Sans',sans-serif" font-size="38" fill="#ffffff" text-anchor="middle">D[e^(λx)] = λe^(λx)</text>
+<text x="312" y="391" font-family="Arial,'Noto Sans',sans-serif" font-size="23" fill="#b8d2e5" text-anchor="middle">向量 → 向量</text>
+<text x="890" y="391" font-family="Arial,'Noto Sans',sans-serif" font-size="23" fill="#b8d2e5" text-anchor="middle">函数 → 函数</text>
+<text x="600" y="537" font-family="Arial,'Noto Sans',sans-serif" font-size="21" fill="#a6cada" text-anchor="middle">同一种特征关系，不要求输入对象一定是数字或几何向量</text>
+</svg>
