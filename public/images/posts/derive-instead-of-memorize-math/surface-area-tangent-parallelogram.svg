@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071525"/><stop offset="1" stop-color="#132d3b"/></linearGradient>
+  <linearGradient id="ac" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#57d9c5"/><stop offset="1" stop-color="#ffc37c"/></linearGradient>
+  <style>
+  .cn{font-family:"Noto Sans SC","Microsoft Yahei","PingFang SC",sans-serif}
+  .math{font-family:"STIX Two Math","Cambria Math",Georgia,serif}
+  .muted{fill:#a6c0ca}.white{fill:#ecf4f4}.teal{fill:#55dfc3}.amber{fill:#ffc27a}
+  </style>
+</defs><rect width="1200" height="660" rx="24" fill="#0d2030"/>
+<text x="55" y="77" class="cn white" font-size="36" font-weight="700">曲面面积微元：为什么不能把两条边长直接相乘？</text>
+<g transform="translate(35,25)">
+  <path d="M160 490 L478 397 L625 145 L307 238 Z" fill="#2c8d93" fill-opacity=".24" stroke="#66dec5" stroke-width="3.5"/>
+  <path d="M160 490L478 397" stroke="#53cdd4" stroke-width="7" stroke-linecap="round"/>
+  <path d="M160 490L307 238" stroke="#f4bb7a" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="160" cy="490" r="9" fill="#ffffff"/>
+  <path d="M160 490L210 476" stroke="#bad6d9" stroke-width="1" opacity=".8"/>
+  <path d="M205 477 A47 47 0 0 0 184 448" fill="none" stroke="#ffffff" stroke-width="2.5" />
+  <g font-family="Georgia,serif" font-size="30" fill="#f0f7f7">
+    <text x="159" y="527">O</text><text x="345" y="459">rₓ</text><text x="213" y="319">rᵧ</text><text x="223" y="452">α</text>
+  </g>
+  <text x="359" y="286" font-family="Georgia,serif" font-size="34" fill="#8eecde">dS = |rₓ × rᵧ| dx dy</text>
+</g>
+<path d="M770 121V570" stroke="#52717d" stroke-width="2" stroke-dasharray="6 8"/>
+<text x="806" y="175" class="cn muted" font-size="30">设 z = x + y，则</text>
+<text x="807" y="225" class="math white" font-size="30">zₓ = zᵧ = 1</text>
+<rect x="803" y="279" width="336" height="115" rx="15" fill="#432b2c" stroke="#efaa94" stroke-width="2"/>
+<text x="831" y="324" class="cn white" font-size="26">错误：边长直接相乘</text>
+<text x="830" y="369" class="math" font-size="38" fill="#f5b7a9">√2 · √2 = 2</text>
+<rect x="803" y="427" width="336" height="115" rx="15" fill="#1b4240" stroke="#79dac5" stroke-width="2"/>
+<text x="831" y="472" class="cn white" font-size="26">正确：计入夹角</text>
+<text x="830" y="517" class="math teal" font-size="38">|rₓ × rᵧ| = √3</text>
+<text x="57" y="618" class="cn muted" font-size="23">切向量张成的是平行四边形；图为局部几何示意，非实际比例。</text>
+</svg>
